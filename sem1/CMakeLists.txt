@@ -1,1 +1,1 @@
-add_executable(example1 example1.c)
+add_executable(sem1-1 example1.c)
