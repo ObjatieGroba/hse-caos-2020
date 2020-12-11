@@ -63,7 +63,7 @@ int main(int argc, const char ** argv) {
 //    ++ptr; ptr = ((char *)ptr)) + sizeof(type);
 
     struct List * ptr = calloc(1, sizeof(struct List));
-    ptr->value == 0; ptr->next == 0;  /// Becase calloc
+    ptr->value == 0; ptr->next == 0;  /// Because calloc
     free(ptr);
 
 
