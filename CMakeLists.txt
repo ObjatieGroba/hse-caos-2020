@@ -1,6 +1,6 @@
 project(seminars C)
 
-cmake_minimum_required(VERSION 3.17)
+cmake_minimum_required(VERSION 3.13.4)
 
 #add_compile_options(-Wall -Werror=all)
 #add_compile_options(-fpic)
@@ -13,3 +13,6 @@ add_subdirectory(sem5)
 add_subdirectory(sem6)
 add_subdirectory(sem7)
 add_subdirectory(sem12)
+add_subdirectory(sem14)
+
+add_executable(sem13.main sem13/main.c)
