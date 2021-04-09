@@ -18,5 +18,6 @@ add_subdirectory(sem15)
 add_subdirectory(sem16)
 add_subdirectory(sem17)
 add_subdirectory(sem18)
+add_subdirectory(sem19)
 
 add_executable(sem13.main sem13/main.c)
