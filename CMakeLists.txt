@@ -1,4 +1,4 @@
-project(seminars C)
+project(seminars C CXX)
 
 cmake_minimum_required(VERSION 3.13.4)
 
@@ -24,5 +24,6 @@ add_subdirectory(sem21)
 add_subdirectory(sem22)
 add_subdirectory(sem23)
 add_subdirectory(sem24)
+add_subdirectory(sem25)
 
 add_executable(sem13.main sem13/main.c)
